@@ -5,10 +5,10 @@
 ### Access your Google Authenticator codes anywhere — completely offline, zero lock-in.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/your-username/google-authenticator-extension/releases)
+[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/lathi-aayush/google-authenticator-extension/releases)
 [![Chrome Extension](https://img.shields.io/badge/Chrome_Extension-Manifest_V3-4285F4?logo=googlechrome&logoColor=white)](https://developer.chrome.com/docs/extensions/mv3/intro/)
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/your-username/google-authenticator-extension)
-[![Stars](https://img.shields.io/github/stars/your-username/google-authenticator-extension?style=social)](https://github.com/your-username/google-authenticator-extension)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/lathi-aayush/google-authenticator-extension)
+[![Stars](https://img.shields.io/github/stars/your-username/google-authenticator-extension?style=social)](https://github.com/lathi-aayush/google-authenticator-extension)
 
 [Demo](#) • [Report Bug](https://github.com/lathi-aayush/google-authenticator-extension/issues) • [Request Feature](https://github.com/your-username/google-authenticator-extension/issues)
 
