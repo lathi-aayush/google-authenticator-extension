@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Google-Authenticator-Extension",
+  "version": "1.0",
+  "description": "No need to use google authenticator app, Offline 2FA extension synced with Google Authenticator keys",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
+

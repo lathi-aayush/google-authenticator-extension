@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      width: 330px;
+      font-family: Arial, sans-serif;
+      padding: 10px;
+      margin: 0;
+    }
+
+    h2 {
+      font-size: 16px;
+      margin-top: 0;
+    }
+
+    .account-card {
+      background: #f4f4f9;
+      padding: 10px;
+      border-radius: 6px;
+      margin-bottom: 8px;
+      border-left: 4px solid #4285f4;
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .account-name {
+      font-size: 12px;
+      color: #555;
+      font-weight: bold;
+      word-break: break-all;
+      padding-right: 5px;
+    }
+
+    .delete-btn {
+      background: none;
+      border: none;
+      color: #d93025;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      padding: 0 4px;
+    }
+
+    .delete-btn:hover {
+      color: #a50e0e;
+    }
+
+    .totp-code {
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: 3px;
+      color: #1a73e8;
+      cursor: pointer;
+      margin: 5px 0;
+    }
+
+    .timer {
+      font-size: 11px;
+      color: #888;
+      text-align: right;
+    }
+
+    .input-group {
+      margin-bottom: 12px;
+    }
+
+    label {
+      font-size: 12px;
+      font-weight: bold;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 6px;
+      font-size: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 6px;
+    }
+
+    button.submit-btn {
+      width: 100%;
+      padding: 6px;
+      background-color: #1a73e8;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button.submit-btn:hover {
+      background-color: #1557b0;
+    }
+
+    .instruction-box {
+      background: #e8f0fe;
+      padding: 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      color: #174ea6;
+      margin-bottom: 10px;
+    }
+
+    .instruction-box a {
+      color: #1a73e8;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Authenticator Extension</h2>
+
+  <div class="instruction-box">
+    If image scanning fails, submit your QR screenshot to
+    <a href="https://zxing.org/w/decode.jspx" target="_blank">zxing.org/w/decode.jspx</a>,
+    copy the "Parsed Result" link (e.g. <code>otpauth-migration://...</code>), and paste it below.
+  </div>
+
+  <div class="input-group">
+    <label for="urlInput">Paste otpauth / migration link:</label>
+    <input type="text" id="urlInput" placeholder="otpauth-migration://offline?data=..." />
+    <button id="submitUrlBtn" class="submit-btn">Add Key from Link</button>
+  </div>
+
+  <hr style="border: 0; border-top: 1px solid #ddd; margin: 12px 0;" />
+
+  <div class="input-group">
+    <label>Or Upload QR Screenshot:</label>
+    <input type="file" id="qrInput" accept="image/*" />
+  </div>
+
+  <hr style="border: 0; border-top: 1px solid #ddd; margin: 12px 0;" />
+
+  <div id="accountList"></div>
+
+  <script src="lib/zxing.min.js"></script>
+  <script src="popup.js"></script>
+</body>
+
+</html>
