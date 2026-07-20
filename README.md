@@ -10,7 +10,7 @@
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/your-username/google-authenticator-extension)
 [![Stars](https://img.shields.io/github/stars/your-username/google-authenticator-extension?style=social)](https://github.com/your-username/google-authenticator-extension)
 
-[Demo](#) • [Report Bug](https://github.com/your-username/google-authenticator-extension/issues) • [Request Feature](https://github.com/your-username/google-authenticator-extension/issues)
+[Demo](#) • [Report Bug](https://github.com/lathi-aayush/google-authenticator-extension/issues) • [Request Feature](https://github.com/your-username/google-authenticator-extension/issues)
 
 </div>
 
