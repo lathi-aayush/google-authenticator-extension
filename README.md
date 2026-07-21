@@ -42,9 +42,6 @@ You don't need a cloud account, a subscription, or a background service running 
 
 ## App flow 🗺️
 
-
-
-
 1. **Export your accounts** — Open Google Authenticator on your phone, choose **Transfer Accounts**, and select **Export**.
 2. **Import in one click** — Snap a screenshot of the QR code or copy the `otpauth-migration://` link directly into the browser extension.
 3. **Get instant 2FA access** — Click any code to copy it to your clipboard with a single tap, exactly when you need it.
@@ -88,4 +85,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Want to contribute or suggest a feature? Feel free to open an issue or pull request on GitHub!
 
-Created with ❤️ for a faster, friction-free web.
+Created with ❤️ for a faster, friction-free authentication.
