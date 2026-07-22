@@ -9,7 +9,7 @@
 [![Chrome Extension](https://img.shields.io/badge/Chrome_Extension-Manifest_V3-4285F4?logo=googlechrome&logoColor=white)](https://developer.chrome.com/docs/extensions/mv3/intro/)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/lathi-aayush/google-authenticator-extension)
 
-[Demo](#) • [Report Bug](https://github.com/lathi-aayush/google-authenticator-extension/issues) • [Request Feature](https://github.com/lathi-aayush/google-authenticator-extension/issues)
+[Download v1.0](https://github.com/lathi-aayush/google-authenticator-extension/releases/latest) • [Report Bug](https://github.com/lathi-aayush/google-authenticator-extension/issues) • [Request Feature](https://github.com/lathi-aayush/google-authenticator-extension/issues)
 
 </div>
 
@@ -23,9 +23,11 @@
 
 ## Install in 60 seconds 🚀
 
-Skip the phone dance. Load the extension once — codes live on your desktop forever after.
+**v1.0 is live.** Install from the [GitHub Releases](https://github.com/lathi-aayush/google-authenticator-extension/releases/latest) page — download the ZIP, Load unpacked, done.
 
-1. **Grab the repo** — clone it or download the ZIP and unpack it.
+Skip the phone dance. Load once — codes live on your desktop forever after.
+
+1. **Download the release** — grab the latest ZIP from **[Releases → v1.0](https://github.com/lathi-aayush/google-authenticator-extension/releases/latest)** and unzip it.
 2. **Open Extensions** — in Chrome/Brave, go to the menu → **Extensions** → **Manage Extensions**.
 
    <p align="center">
@@ -38,9 +40,16 @@ Skip the phone dance. Load the extension once — codes live on your desktop for
      <img src="screenshots/step7.jpg" alt="Developer mode and Load unpacked" width="520" />
    </p>
 
-4. **Point at the extension folder** — select the nested [`google-authenticator-extension/`](https://github.com/lathi-aayush/google-authenticator-extension/tree/main/google-authenticator-extension) directory (the one with `manifest.json` inside — **not** the repo root).
+4. **Select the unzipped folder** — pick the folder that contains `manifest.json` (the packaged extension root).
 
 That’s it. Your desktop just got a phone-free authenticator.
+
+<details>
+<summary>Prefer installing from source?</summary>
+
+Clone the repo, then Load unpacked on the nested [`google-authenticator-extension/`](https://github.com/lathi-aayush/google-authenticator-extension/tree/main/google-authenticator-extension) folder (the one with `manifest.json` — **not** the repo root).
+
+</details>
 
 ---
 
